@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+overflow-x: hidden;
+  min-width: 300px;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, 200px);
+  grid-auto-rows: 200px;
+  gap: 25px 25px;
+  margin: 32px auto;
+  max-width: 1000px;
+  overflow: hidden;
+}
+.photo {
+    overflow: hidden;
+    height: 200px;
+}
+
+img {
+max-height: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+input {
+    text-align: left;
+    padding: 16px;
+    width: 50vw;
+    border: 2px lightgrey solid;
+    border-radius: 4px;
+    min-height: 62px;
+}
+
+.page-wrapper {
+    margin: 0 82px;
+}
