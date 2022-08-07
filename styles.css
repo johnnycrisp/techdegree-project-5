@@ -19,14 +19,12 @@ overflow-x: hidden;
   max-width: 1000px;
   overflow: hidden;
 }
-.photo {
-    overflow: hidden;
-    height: 200px;
-}
 
 img {
-max-height: 250px;
-}
+height: 100%;
+width: 100%;
+
+} 
 
 header {
     display: flex;
